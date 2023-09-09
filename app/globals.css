@@ -28,13 +28,17 @@ body {
 }
 
 .bg-gg-secondary {
-  background-color: #D9E7C9;
+  background-color: #d9e7c9;
 }
 
 .bg-gg-primary {
-  background-color: #346B12;
+  background-color: #346b12;
 }
 
-.text-gg {
-  color: #346B12;
+.text-gg-primary {
+  color: #346b12;
+}
+
+.text-gg-secondary {
+  color: #152c07;
 }
