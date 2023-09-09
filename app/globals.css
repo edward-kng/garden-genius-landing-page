@@ -27,8 +27,12 @@ body {
   background-color: white;
 }
 
-.bg-gg {
+.bg-gg-secondary {
   background-color: #D9E7C9;
+}
+
+.bg-gg-primary {
+  background-color: #346B12;
 }
 
 .text-gg {
