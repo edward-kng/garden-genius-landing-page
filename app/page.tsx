@@ -57,13 +57,13 @@ export default function Home() {
             </p>
             <p>
               <b>Personalised Recommendations:</b> Receive customised watering
-              and planting suggestions based on your garden's specific
+              and planting suggestions based on your garden&apos;s specific
               conditions and your chosen plants.
             </p>
             <p>
               <b>Location-based Insights:</b> Harness the power of local climate
-              data to optimise your garden's performance, adapting your approach
-              according to seasonal changes.
+              data to optimise your garden&apos;s performance, adapting your
+              approach according to seasonal changes.
             </p>
             <p>
               <b>Intuitive Interface:</b> Navigate through our user-friendly
