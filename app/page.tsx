@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Button from "./_components/common/button";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -76,6 +75,39 @@ export default function Home() {
               enthusiasts and exchange knowledge, tips and experiences through
               our integrated forum.
             </p>
+          </div>
+        </div>
+        <div className="col-span-5 text-center flex flex-col space-y-4">
+          <p className="text-3xl">Powered By</p>
+          <div className="relative flex flex-row space-x-20 justify-center items-center p-8">
+            <Image
+              className="h-10 w-auto"
+              height={1000}
+              width={1000}
+              src="https://kotlinlang.org/docs/images/kotlin-logo.png"
+              alt="Kotlin logo"
+            />
+            <Image
+              className="h-20 w-auto"
+              height={1000}
+              width={1000}
+              src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg"
+              alt="Kotlin logo"
+            />
+            <Image
+              className="h-20 w-auto"
+              height={1000}
+              width={1000}
+              src="https://www.python.org/static/community_logos/python-logo-generic.svg"
+              alt="Kotlin logo"
+            />
+            <Image
+              className="h-20 w-auto"
+              height={1000}
+              width={1000}
+              src="https://www.met.no/en/About-us/logo/_/image/943fbdc6-eba8-4e19-aff1-75f453ba9c7f:4bbfe4ae9e1826b3e159a3fff6e5d3893a93b072/width-768/Met_RGB_Horisontal_ENG.jpg"
+              alt="MET logo"
+            />
           </div>
         </div>
       </div>
