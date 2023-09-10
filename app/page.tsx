@@ -10,28 +10,18 @@ export default function Home() {
     >
       <div className="min-h-screen flex flex-col items-center p-8 max-w-6xl mx-auto">
         <div className="md:grid md:grid-cols-5 grid-cols-1 gap-10 space-y-10 h-auto">
-          <div className="md:col-span-3 space-y-4">
-            <h1 className="text-6xl font-bold">Garden Genius</h1>
-            <h2 className="text-3xl font-bold">
-              Your personal gardening assistant, right in the palm of your hand!
-            </h2>
+          <div className="md:col-span-3 space-y-8 mt-20">
+            <h1 className="md:text-6xl text-4xl font-bold">Garden Genius</h1>
             <div className="space-y-4">
-              <p>
-                Our mission is to help gardeners of all experience levels
+              <p className="text-xl">
+                Your personal gardening assistant, right in the palm of your
+                hand! Our mission is to help gardeners of all experience levels
                 cultivate thriving green spaces by leveraging the power of
-                publicly available data.
-              </p>
-              <p>
-                Garden Genius offers tailored watering and planting
-                recommendations based on live weather data and comprehensive
-                information of over 4000 plant species and their growth patterns
-                and ideal environmental conditions.
+                publicly available data. Join us on this exciting journey and
+                discover the joys of gardening with Garden Genius!
               </p>
             </div>
-            <div className="flex flex-row space-x-4">
-              <Button disabled={true}>Download (Coming Soon!)</Button>
-              <Button>View Screenshots</Button>
-            </div>
+            <Button>Join Waiting List</Button>
           </div>
           <div className="relative md:col-span-2 flex flex-col items-center">
             <Image
@@ -54,7 +44,7 @@ export default function Home() {
             />
           </div>
           <div className="md:col-span-3 flex flex-col space-y-10">
-            <h1 className="text-4xl font-bold">Features</h1>
+            <h1 className="text-5xl font-bold">Features</h1>
             <Image
               src="/about-illustration.png"
               alt="Male and female gardener planting pot plants"
@@ -62,7 +52,7 @@ export default function Home() {
               width={1000}
               style={{ height: "auto", width: "70%" }}
             />
-            <div className="bg-gg-secondary p-8 rounded-lg w-full text-gg-secondary">
+            <div className="bg-gg-secondary p-8 rounded-lg w-11/12 text-gg-secondary">
               <p>
                 <b>Extensive Plant Database:</b> Access information on countless
                 plant species, including growth habits, preffered climate and
