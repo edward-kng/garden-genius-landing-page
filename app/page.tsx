@@ -34,9 +34,9 @@ export default function Home() {
                 Join Waiting List
               </Button>
             </div>
-            <div className="relative md:col-span-2 flex flex-col items-center">
+            <div className="md:col-span-2 flex flex-col items-center">
               <Image
-                className="rounded-lg border-black border-4 border-gray-900 overflow-hidden"
+                className="rounded-lg  border-4 border-gray-900 overflow-hidden"
                 src="/screenshot-home-screen.png"
                 alt="Screenshot of home screen"
                 height={1000}
@@ -44,9 +44,9 @@ export default function Home() {
                 style={{ height: "auto", width: "70%" }}
               />
             </div>
-            <div className="md:col-span-2 relative w-full flex flex-col space-y-10 items-center">
+            <div className="md:col-span-2 w-full flex flex-col space-y-10 items-center">
               <Image
-                className="rounded-lg border-black border-4 border-gray-900 overflow-hidden mt-10"
+                className="rounded-lg border-4 border-gray-900 overflow-hidden mt-10"
                 src="/screenshot-explore-screen.png"
                 alt="Screenshot of explore screen"
                 height={1000}
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <div className="col-span-5 text-center flex flex-col space-y-4 items-center">
               <p className="text-3xl mt-40">Powered By</p>
-              <div className="relative grid md:grid-cols-4 grid-cols-2 justify-start items-center p-8 md:gap-20 gap-10">
+              <div className="grid md:grid-cols-4 grid-cols-2 justify-start items-center p-8 md:gap-20 gap-10">
                 <Image
                   className="h-1/2 w-auto"
                   height={1000}
