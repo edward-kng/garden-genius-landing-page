@@ -86,31 +86,31 @@ export default function Home() {
           </div>
         </div>
         <div className="col-span-5 text-center flex flex-col space-y-4 items-center">
-          <p className="text-3xl">Powered By</p>
-          <div className="relative grid md:grid-cols-4 grid-cols-2 justify-center items-center p-8">
+          <p className="text-3xl mt-40">Powered By</p>
+          <div className="relative grid md:grid-cols-4 grid-cols-2 justify-start items-center p-8 md:gap-20 gap-10">
             <Image
-              className="h-5 w-auto"
+              className="h-1/2 w-auto"
               height={1000}
               width={1000}
               src="https://kotlinlang.org/docs/images/kotlin-logo.png"
               alt="Kotlin logo"
             />
             <Image
-              className="h-10 w-auto"
+              className="h-full w-auto"
               height={1000}
               width={1000}
               src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg"
-              alt="Kotlin logo"
+              alt="SQLite logo"
             />
             <Image
-              className="h-10 w-auto"
+              className="h-full w-auto"
               height={1000}
               width={1000}
               src="https://www.python.org/static/community_logos/python-logo-generic.svg"
-              alt="Kotlin logo"
+              alt="Python logo"
             />
             <Image
-              className="h-10 w-auto"
+              className="h-full w-auto"
               height={1000}
               width={1000}
               src="https://www.met.no/en/About-us/logo/_/image/943fbdc6-eba8-4e19-aff1-75f453ba9c7f:4bbfe4ae9e1826b3e159a3fff6e5d3893a93b072/width-768/Met_RGB_Horisontal_ENG.jpg"
