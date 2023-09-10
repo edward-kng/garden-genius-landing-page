@@ -19,7 +19,7 @@ export default function Home() {
             <p>
               Garden Genius offers tailored watering and planting
               recommendations based on live weather data and comprehensive
-              information of over 1500 plant species and their growth patterns
+              information of over 4000 plant species and their growth patterns
               and ideal environmental conditions.
             </p>
           </div>
