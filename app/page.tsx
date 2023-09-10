@@ -38,17 +38,25 @@ export default function Home() {
             style={{ height: "auto", width: "70%" }}
           />
         </div>
-        <div className="md:col-span-2 relative w-full">
+        <div className="md:col-span-2 relative w-full flex flex-col space-y-10 items-center">
+          <Image
+            className="rounded-lg border-black border-4 border-gray-900 overflow-hidden mt-10"
+            src="/screenshot-explore-screen.png"
+            alt="Screenshot of explore screen"
+            height={1000}
+            width={1000}
+            style={{ height: "auto", width: "70%" }}
+          />
+        </div>
+        <div className="md:col-span-3 flex flex-col space-y-10">
+          <h1 className="text-4xl font-bold">Features</h1>
           <Image
             src="/about-illustration.png"
             alt="Male and female gardener planting pot plants"
             height={1000}
             width={1000}
-            style={{ height: "auto", width: "100%" }}
+            style={{ height: "auto", width: "70%" }}
           />
-        </div>
-        <div className="md:col-span-3 flex flex-col space-y-10">
-          <h1 className="text-4xl font-bold">Features</h1>
           <div className="bg-gg-secondary p-8 rounded-lg w-full text-gg-secondary">
             <p>
               <b>Extensive Plant Database:</b> Access information on countless
