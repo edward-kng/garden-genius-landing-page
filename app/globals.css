@@ -42,3 +42,15 @@ body {
 .text-gg-secondary {
   color: #152c07;
 }
+
+@media (min-width: 768px) {
+  .md-bg-gg-half {
+    background: linear-gradient(to bottom, #d9e7c9 35rem, transparent 0);
+  }
+}
+
+@media (max-width: 767px) {
+  .bg-gg-half {
+    background: linear-gradient(to bottom, #d9e7c9 60rem, transparent 0);
+  }
+}

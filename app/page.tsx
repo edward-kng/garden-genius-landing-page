@@ -11,11 +11,7 @@ export default function Home() {
   return (
     <main>
       <div
-        style={{
-          background:
-            "linear-gradient(to bottom, #d9e7c9 35rem, transparent 0);",
-        }}
-        className={showDialog ? "blur-sm" : ""}
+        className={`${showDialog ? "blur-sm" : ""} md-bg-gg-half bg-gg-half`}
       >
         <div className="min-h-screen flex flex-col items-center p-8 max-w-6xl mx-auto">
           <div className="md:grid md:grid-cols-5 grid-cols-1 gap-10 space-y-10 h-auto">
