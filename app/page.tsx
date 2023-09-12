@@ -50,7 +50,7 @@ export default function Home() {
                 style={{ height: "auto", width: "70%" }}
               />
             </div>
-            <div className="md:col-span-3 flex flex-col space-y-10">
+            <div className="md:col-span-3 flex flex-col space-y-10 md:items-start items-center">
               <h1 className="text-5xl font-bold">Features</h1>
               <Image
                 src="/about-illustration.png"
