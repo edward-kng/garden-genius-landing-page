@@ -22,6 +22,22 @@ export default function DialogBox({ onExit, className }: DialogBoxAttributes) {
           className="flex flex-col space-y-4 items-center"
           onSubmit={(evt) => {
             evt.preventDefault();
+            fetch(
+              `${
+                process.env.NODE_ENV === "development"
+                  ? "http://localhost:3000"
+                  : "https://garden-genius.vercel.app"
+              }/api/join-waiting-list`,
+              {
+                cache: "no-cache",
+                credentials: "same-origin",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                method: "POST",
+                body: JSON.stringify({ email: value }),
+              },
+            );
             setSuccess(true);
             setTimeout(() => {
               setSuccess(false);
